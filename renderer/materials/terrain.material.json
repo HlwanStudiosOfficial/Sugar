@@ -2,22 +2,9 @@
   "materials": {
     "version": "1.0.0",
     "terrain_base": {
-      "+defines": [ "LOW_PRECISION" ],
-      "+states": [ "disable_depth_test" ],
-      "variants": [
-        {
-          "sugar_fast": {
-            "+defines": [ 
-              "FORCE_OPAQUE_PASS",
-              "NO_FOG"
-            ]
-          }
-        }
-      ]
-    },
-    "transparent_base": {
-      "+defines": [ "LOW_PRECISION" ],
-      "+states": [ "disable_blend" ]
+      "+states": [ "disable_depth_test", "enable_backface_culling" ],
+      "+defines": [ "LOW_PRECISION", "RENDER_AS_OPAQUE" ],
+      "msaa_support": "none"
     }
   }
 }
