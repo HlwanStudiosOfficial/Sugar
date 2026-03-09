@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Sugar",
-    "description": "nightly-0.1.0 | High-performance rendering by HlwanStudios",
+    "name": "§fSugar §7- §bHlwanStudios",
+    "description": "§7Sodium-style FPS Booster for Bedrock. §a[Nightly 0.1.0]",
     "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
     "version": [0, 1, 0],
     "min_engine_version": [1, 20, 0]
