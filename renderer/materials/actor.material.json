@@ -1,0 +1,10 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "actor_base": {
+      "+defines": [ "LOW_PRECISION" ],
+      "msaa_support": "none",
+      "+states": [ "enable_backface_culling" ]
+    }
+  }
+}
