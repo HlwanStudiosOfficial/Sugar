@@ -1,0 +1,10 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "water": {
+      "+defines": [ "LOW_PRECISION", "NO_FOG" ],
+      "+states": [ "disable_alpha_write" ],
+      "msaa_support": "none"
+    }
+  }
+}
