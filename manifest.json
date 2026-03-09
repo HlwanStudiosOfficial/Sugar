@@ -3,7 +3,7 @@
   "header": {
     "name": "Sugar",
     "description": "nightly-0.1.0 | High-performance rendering by HlwanStudios",
-    "uuid": "d1a3e5f7-92bc-4c8e-a123-b6d8e9f0a1b2",
+    "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
     "version": [0, 1, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -11,7 +11,7 @@
     {
       "description": "Sugar Rendering Core",
       "type": "resources",
-      "uuid": "e2b4f6a8-03cd-5d9f-b234-c7e9f0a1b2c3",
+      "uuid": "16192dc0-82ae-422d-bfc8-eb0ce74e37c9",
       "version": [0, 1, 0]
     }
   ]
