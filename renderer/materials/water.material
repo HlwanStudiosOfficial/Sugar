@@ -1,6 +1,6 @@
 {
   "materials": {
-    "version": "1.0.0",
+    "version": "0.1.1",
     "water": {
       "+defines": [ "LOW_PRECISION", "NO_FOG" ],
       "+states": [ "disable_alpha_write" ],
