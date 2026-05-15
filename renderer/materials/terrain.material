@@ -2,8 +2,17 @@
   "materials": {
     "version": "1.0.0",
     "terrain_base": {
-      "+states": [ "disable_depth_test", "enable_backface_culling" ],
-      "+defines": [ "LOW_PRECISION", "RENDER_AS_OPAQUE" ],
+      "+states": [ 
+        "DisableFog", 
+        "EnableBackfaceCulling" 
+      ],
+      "+defines": [ 
+        "LOW_PRECISION", 
+        "TEXEL_AA" 
+      ],
+      "-states": [ 
+        "EnableBlending" 
+      ],
       "msaa_support": "none"
     }
   }
