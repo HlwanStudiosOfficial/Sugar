@@ -27,7 +27,7 @@ The supported devices are devices that can run Minecraft: Bedrock Editon. Device
 6. After a few seconds it will say
 Imported Flame -HlwanStudios 
 or
-Imported Sugar -HlwanStudios (nightly version 1.0 and earlier.)
+Imported Sugar -HlwanStudios (nightly version 0.1.0 and earlier.)
 
 7. Now go to Settings in the main menu and scroll down to Resource Packs.
 
