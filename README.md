@@ -1,6 +1,5 @@
 # Flamed
-
-<img width="1024" height="1024" alt="19873" src="https://github.com/user-attachments/assets/8e83f99d-d1b0-45d6-beae-c91492da220f" />
+<img width="1024" height="1024" alt="31928" src="https://github.com/user-attachments/assets/fd764706-f524-44cd-851b-da9924983069" />
 
 A Minecraft Bedrock FPS Booster and works the same as Sodium.
 
