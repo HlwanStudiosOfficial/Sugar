@@ -1,0 +1,25 @@
+{
+  "materials": {
+    "version": "0.1.2",
+    "ui_base": {
+      "+defines": [ 
+        "LOW_PRECISION" 
+      ],
+      "+states": [ 
+        "enable_backface_culling" 
+      ],
+      "-states": [ 
+        "enable_blending" 
+      ],
+      "msaa_support": "none"
+    },
+    "ui_text": {
+      "+defines": [ 
+        "LOW_PRECISION" 
+      ],
+      "-defines": [
+        "ALLOW_SMOOTH_TEXT"
+      ]
+    }
+  }
+}
