@@ -1,0 +1,13 @@
+{
+  "materials": {
+    "version": "0.1.2",
+    "particle_base": {
+      "+defines": [ "LOW_PRECISION" ],
+      "-states": [ "enable_blending" ],
+      "msaa_support": "none",
+      "vertexFields": [
+        { "Position": "float3" }
+      ]
+    }
+  }
+}
