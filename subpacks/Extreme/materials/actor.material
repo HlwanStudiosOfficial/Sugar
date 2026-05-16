@@ -1,0 +1,17 @@
+{
+  "materials": {
+    "version": "0.1.1",
+    "actor_base": {
+      "+defines": [ 
+        "LOW_PRECISION",
+        "DISABLE_SMOOTH_LIGHTING"
+      ],
+      "msaa_support": "none",
+      "+states": [ 
+        "enable_backface_culling",
+        "disable_casting_shadows",
+        "disable_receiving_shadows"
+      ]
+    }
+  }
+}
