@@ -3,15 +3,15 @@
 
 A Minecraft Bedrock FPS Booster and works the same as Sodium.
 
-## About Flamed
+## ℹ️ About Flamed
 
 Flamed is a small and unpopular, yet stil helping budget and low-end minecrafters. This project was made by HlwanStudios (Theamyestone) at March, 9, 2026. We are working hard to find bugs and listed and appreciate your exprience.
 
-## Supported devices.
+## 💻 Supported devices.
 
 The supported devices are devices that can run Minecraft: Bedrock Editon. Devices like Mobile, PC, Tablet, Console and Nintendo Switch are supported. You just need a copy of this version of Minecraft: Bedrock Editon.
 
-## Installing Flamed
+## 📥 Installing Flamed
 
 1.First you want to go to the Releases section and download the file ending in .mcpack.
 
