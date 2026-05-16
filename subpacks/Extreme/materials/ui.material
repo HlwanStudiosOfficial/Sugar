@@ -1,0 +1,18 @@
+{
+  "materials": {
+    "version": "0.1.1",
+    "selection_overlay": {
+      "+defines": [ "LOW_PRECISION" ],
+      "-states": [ "enable_blending" ],
+      "vertexFields": [
+        { "Position": "float3" }
+      ]
+    },
+    "ui_base": {
+      "+defines": [ "LOW_PRECISION" ],
+      "+states": [ "enable_backface_culling" ],
+      "-states": [ "enable_blending" ],
+      "msaa_support": "none"
+    }
+  }
+}
