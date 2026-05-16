@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "§fFlamed",
-    "description": "§a§o Boost FPS and optimize Minecraft now!",
+    "description": "§6§oBoost FPS and optimize Minecraft now!",
     "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
     "version": [0, 1, 2],
     "min_engine_version": [1, 14, 0]
@@ -14,5 +14,33 @@
       "uuid": "16192dc0-82ae-422d-bfc8-eb0ce74e37c9",
       "version": [0, 1, 0]
     }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "Low",
+      "name": "§fOptimization Settings: §aLow\n§7The lowest boosting experience and not recommended. Use this only if your phone is high-end but struggling to run 120 FPS and running 100-110 FPS.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "Normal",
+      "name": "§fOptimization Settings: §2Normal\n§7The first mid-tier boosting experience and is recommended to use if your device is also mid-tier.",
+      "memory_tier": 2
+    },
+    {
+      "folder_name": "Medium",
+      "name": "§fOptimization Settings: §eMedium\n§7The second mid-tier boosting experience. This sets the chunk load to 8 chunks for boosting experience and enables most settings. This is the default setting.",
+      "memory_tier": 3
+    },
+    {
+      "folder_name": "High",
+      "name": "§fOptimization Settings: §cHigh\n§7The high-quality boosting experience. Disables most particles and makes the game stop rendering mobs if they are 32 blocks away.",
+      "memory_tier": 4
+    },
+    {
+      "folder_name": "Extreme",
+      "name": "§fOptimization Settings: §4Extreme\n§7The absolute final boss of boosting experiences. Disables all extras (particles, trails, animations, removing your hand and what block you're holding, etc.). Boosts the game to the max FPS your device can handle.",
+      "memory_tier": 5
+    }
   ]
 }
+
