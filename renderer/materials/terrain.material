@@ -1,17 +1,20 @@
 {
   "materials": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "terrain_base": {
-      "+states": [ 
-        "DisableFog", 
-        "EnableBackfaceCulling" 
-      ],
       "+defines": [ 
-        "LOW_PRECISION", 
-        "TEXEL_AA" 
+        "LOW_PRECISION",
+        "DISABLE_SMOOTH_LIGHTING"
+      ],
+      "-defines": [
+        "TEXEL_AA"
+      ],
+      "+states": [ 
+        "enable_backface_culling" 
       ],
       "-states": [ 
-        "EnableBlending" 
+        "enable_blending",
+        "enable_fog"
       ],
       "msaa_support": "none"
     }
