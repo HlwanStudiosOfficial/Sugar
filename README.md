@@ -9,6 +9,8 @@ ________________________________________
 
 Flamed is a small and unpopular, yet stil helping budget and low-end minecrafters. This project was made by HlwanStudios (Theamyestone) at March, 9, 2026. We are working hard to find bugs and listed and appreciate your exprience.
 
+[![Get on CurseForge](https://img.shields.io/badge/Get_on-CurseForge-orange?style=for-the-badge&logo=curseforge)](https://legacy.curseforge.com/minecraft/mc-addons/flamed)
+
 # 💻 Supported devices.
 
 The supported devices are devices that can run Minecraft: Bedrock Editon. Devices like Mobile, PC, Tablet, Console and Nintendo Switch are supported. You just need a copy of this version of Minecraft: Bedrock Editon.
