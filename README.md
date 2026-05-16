@@ -15,7 +15,7 @@ The supported devices are devices that can run Minecraft: Bedrock Editon. Device
 
 # 🛠 Bulids
 
-We provide builds for Flamed. Other builds are not released yet. You can check the roadmap here.
+We provide builds for Flamed. Other builds are not released yet. You can check the roadmap [here](https://github.com/HlwanStudiosOfficial/Flamed/wiki/2026-Roadmap-for-Flamed).
 
 ## 🌙 Nightly
 
