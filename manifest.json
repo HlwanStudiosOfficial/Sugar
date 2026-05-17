@@ -4,7 +4,7 @@
     "name": "§fFlamed",
     "description": "§6§oBoost FPS and optimize Minecraft now!",
     "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
-    "version": [0, 1, 3],
+    "version": [0, 1, 2],
     "min_engine_version": [1, 20, 0]
   },
   "modules": [
@@ -12,33 +12,33 @@
       "description": "Flamed Rendering Core",
       "type": "resources",
       "uuid": "16192dc0-82ae-422d-bfc8-eb0ce74e37c9",
-      "version": [0, 1, 3]
+      "version": [0, 1, 0]
     }
   ],
   "subpacks": [
     {
       "folder_name": "Low",
-      "name": "§fOptimization: §aLow\n§7Slightly tweaks background entity properties.",
+      "name": "§fOptimization Setting: §aLow\n§7Slightly tweaks background entity properties.",
       "memory_tier": 1
     },
     {
       "folder_name": "Normal",
-      "name": "§fOptimization: §2Normal\n§7Balanced optimization for standard mid-tier mobile devices.",
+      "name": "§fOptimization Setting: §2Normal\n§7Balanced optimization for standard mid-tier mobile devices.",
       "memory_tier": 2
     },
     {
       "folder_name": "Medium",
-      "name": "§fOptimization: §eMedium\n§7Streamlines active rendering logic for a stable frame rate.",
+      "name": "§fOptimization Setting: §eMedium\n§7Streamlines active rendering logic for a stable frame rate.",
       "memory_tier": 3
     },
     {
       "folder_name": "High",
-      "name": "§fOptimization: §cHigh\n§7Culls non-essential entity visual passes beyond your view distance.",
+      "name": "§fOptimization Setting: §cHigh\n§7Culls non-essential entity visual passes beyond your view distance.",
       "memory_tier": 4
     },
     {
       "folder_name": "Extreme",
-      "name": "§fOptimization: §4Extreme\n§7The ultimate boost. Aggressively optimizes entity visibility and math loops.",
+      "name": "§fOptimization Setting: §4Extreme\n§7The ultimate boost. Aggressively optimizes entity visibility and math loops.",
       "memory_tier": 5
     }
   ]
