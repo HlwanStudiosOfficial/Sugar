@@ -10,7 +10,7 @@
           "flamed_fps_toggle_panel": {
             "type": "stack_panel",
             "orientation": "horizontal",
-            "size": [ "100%", "30px" ],
+            "size": [ "100%", "28px" ],
             "controls": [
               {
                 "toggle_text_panel": {
@@ -19,7 +19,7 @@
                   "controls": [
                     {
                       "label@common.base_label": {
-                        "text": "Show FPS",
+                        "text": "Show FPS Counter",
                         "anchor_from": "left_middle",
                         "anchor_to": "left_middle",
                         "offset": [ 5, 0 ],
@@ -50,13 +50,59 @@
         "array_name": "controls",
         "operation": "insert_back",
         "value": {
-          "flamed_fps_description_panel": {
+          "flamed_vsync_toggle_panel": {
+            "type": "stack_panel",
+            "orientation": "horizontal",
+            "size": [ "100%", "28px" ],
+            "offset": [ 0, 10 ],
+            "controls": [
+              {
+                "vsync_text_panel": {
+                  "type": "panel",
+                  "size": [ "fill", "100%" ],
+                  "controls": [
+                    {
+                      "label@common.base_label": {
+                        "text": "Unlock Max FPS (Disable V-Sync)",
+                        "anchor_from": "left_middle",
+                        "anchor_to": "left_middle",
+                        "offset": [ 5, 0 ],
+                        "color": [ 1.0, 0.4, 0.4 ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "vsync_control@common.toggle": {
+                  "anchor_from": "right_middle",
+                  "anchor_to": "right_middle",
+                  "size": [ "44px", "24px" ],
+                  "offset": [ -5, 0 ],
+                  "checked_control": "button.checked",
+                  "unchecked_control": "button.unchecked",
+                  "binding_name": "#gfx_vsync",
+                  "binding_name_override": "#gfx_vsync",
+                  "binding_type": "global",
+                  "binding_condition": "always"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "flamed_description_panel": {
             "type": "panel",
-            "size": [ "100%", "40px" ],
+            "size": [ "100%", "45px" ],
+            "offset": [ 0, 15 ],
             "controls": [
               {
                 "desc_text@common.base_label": {
-                  "text": "§7Shows the FPS counter at the top left of your screen! You can use this if your device doesn't have a Show FPS in the system.",
+                  "text": "§7Unlocks your device hardware refresh limits to get smooth gameplay and zero screen stutters during input sequences.",
                   "wrap": true,
                   "font_size": "small",
                   "anchor_from": "top_left",
