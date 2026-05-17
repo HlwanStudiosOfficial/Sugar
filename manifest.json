@@ -5,7 +5,7 @@
     "description": "§6§oBoost FPS and optimize Minecraft now!",
     "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
     "version": [0, 1, 2],
-    "min_engine_version": [1, 14, 0]
+    "min_engine_version": [1, 20, 0]
   },
   "modules": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "folder_name": "Medium",
-      "name": "§fOptimization Settings: §eMedium\n§7The second mid-tier boosting experience. This sets the chunk load to 8 chunks for boosting experience and enables most settings. This is the default setting.",
+      "name": "§fOptimization Settings: §eMedium\n§7The second mid-tier boosting experience. This sets the chunk load to 8 chunks for boosting experience and enables most settings.",
       "memory_tier": 3
     },
     {
