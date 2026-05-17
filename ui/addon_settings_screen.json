@@ -1,0 +1,64 @@
+{
+  "namespace": "addon_settings",
+
+  "custom_toggle_row": {
+    "type": "panel",
+    "size": [ "100%", 24 ],
+    "controls": [
+      {
+        "checkbox@common.toggle": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "size": [ 24, 24 ],
+          "$toggle_binding_type": "global_level",
+          "$toggle_state_binding_name": "$option_binding",
+          "$toggle_enabled_binding_name": "$option_enabled_binding"
+        }
+      },
+      {
+        "label@common.base_label": {
+          "anchor_from": "top_left",
+          "anchor_to": "top_left",
+          "offset": [ 28, 5 ],
+          "text": "$toggle_text",
+          "color": [ 0.8, 0.8, 0.8 ]
+        }
+      }
+    ]
+  },
+
+  "addon_settings_panel": {
+    "type": "stack_panel",
+    "orientation": "vertical",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      {
+        "slider_section": {
+          "type": "panel",
+          "size": [ "100%", 36 ],
+          "controls": [
+            {
+              "subpack_slider@common.slider": {
+                "size": [ "100%", 30 ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "vsync_toggle@addon_settings.custom_toggle_row": {
+          "$toggle_text": "V-Sync",
+          "$option_binding": "#gfx_vsync",
+          "$option_enabled_binding": "#gfx_vsync_enabled"
+        }
+      },
+      {
+        "fps_toggle@addon_settings.custom_toggle_row": {
+          "$toggle_text": "Show FPS",
+          "$option_binding": "#gfx_frame_rate_counter",
+          "$option_enabled_binding": "#gfx_frame_rate_counter_enabled"
+        }
+      }
+    ]
+  }
+}
