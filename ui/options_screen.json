@@ -1,0 +1,74 @@
+{
+  "namespace": "options",
+
+  "resource_pack_settings_screen@options.base_screen": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "flamed_fps_toggle_panel": {
+            "type": "stack_panel",
+            "orientation": "horizontal",
+            "size": [ "100%", "30px" ],
+            "controls": [
+              {
+                "toggle_text_panel": {
+                  "type": "panel",
+                  "size": [ "fill", "100%" ],
+                  "controls": [
+                    {
+                      "label@common.base_label": {
+                        "text": "Show FPS",
+                        "anchor_from": "left_middle",
+                        "anchor_to": "left_middle",
+                        "offset": [ 5, 0 ],
+                        "color": [ 1.0, 1.0, 1.0 ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "toggle_control@common.toggle": {
+                  "anchor_from": "right_middle",
+                  "anchor_to": "right_middle",
+                  "size": [ "44px", "24px" ],
+                  "offset": [ -5, 0 ],
+                  "checked_control": "button.checked",
+                  "unchecked_control": "button.unchecked",
+                  "binding_name": "#flamed_fps_enabled",
+                  "binding_type": "global",
+                  "binding_condition": "always"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": {
+          "flamed_fps_description_panel": {
+            "type": "panel",
+            "size": [ "100%", "40px" ],
+            "controls": [
+              {
+                "desc_text@common.base_label": {
+                  "text": "§7Shows the FPS counter at the top left of your screen! You can use this if your device doesn't have a Show FPS in the system.",
+                  "wrap": true,
+                  "font_size": "small",
+                  "anchor_from": "top_left",
+                  "anchor_to": "top_left",
+                  "offset": [ 5, 2 ],
+                  "color": [ 0.6, 0.6, 0.6 ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
