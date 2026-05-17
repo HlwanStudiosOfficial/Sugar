@@ -1,0 +1,12 @@
+{
+  "materials": {
+    "version": "0.1.2",
+    "cloud": {
+      "+defines": [ "LOW_PRECISION" ],
+      "variants": [ { "flamed_fast_clouds": {} } ]
+    },
+    "fog": {
+      "+defines": [ "LOW_PRECISION" ]
+    }
+  }
+}
