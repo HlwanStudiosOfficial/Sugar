@@ -4,7 +4,7 @@
     "name": "§fFlamed",
     "description": "§6§oBoost FPS and optimize Minecraft now!",
     "uuid": "40051491-dd93-4fc6-b591-cb0587e0b2d3",
-    "version": [0, 1, 2],
+    "version": [0, 1, 3],
     "min_engine_version": [1, 20, 0]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "Flamed Rendering Core",
       "type": "resources",
       "uuid": "16192dc0-82ae-422d-bfc8-eb0ce74e37c9",
-      "version": [0, 1, 0]
+      "version": [0, 1, 3]
     }
   ],
   "subpacks": [
