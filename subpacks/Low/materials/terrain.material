@@ -1,8 +1,0 @@
-{
-  "materials": {
-    "version": "0.1.2",
-    "terrain_base": {
-      "+defines": [ "LOW_PRECISION" ]
-    }
-  }
-}
