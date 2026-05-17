@@ -1,0 +1,9 @@
+{
+  "materials": {
+    "version": "0.1.2",
+    "actor_base": {
+      "+defines": [ "LOW_PRECISION" ],
+      "msaa_support": "none"
+    }
+  }
+}
