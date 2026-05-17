@@ -1,0 +1,21 @@
+{
+  "namespace": "hud",
+
+  "fps_text": {
+    "type": "label",
+    "text": "#fps_text",
+    "color": [ 1.0, 1.0, 1.0 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "offset": [ 5, 5 ],
+    "bindings": [
+      {
+        "binding_name": "#fps_text"
+      },
+      {
+        "binding_name": "#gfx_frame_rate_counter",
+        "binding_name_override": "#visible"
+      }
+    ]
+  }
+}
